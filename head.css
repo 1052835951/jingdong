@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body  {
+    background-color: #F6F6F6;
+}
+
+/* 定义字体图标开始 */
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont/iconfont.eot');
+  src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont/iconfont.woff') format('woff'),
+  url('iconfont/iconfont.ttf') format('truetype'),
+  url('iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 定义字体图标结束 */
+.banxin {
+    width: 1190px;
+    margin: 0 auto;
+}
+.super-day {
+    background-color: black;
+}
+.super-day .banxin {
+    height: 80px;
+    background: url(images/head.png);
+    
+}
+.nav {
+    height: 30px;
+    background-color: #E3E4E5;
+    border-bottom: 1px solid #DDDDDD;
+}
+.nav .banxin {/*
+    height: 171px;  */
+    position: relative;
+}
+.nav-link {
+    width: 990px;
+    height: 30px;
+    float: right;
+    line-height: 30px;
+    font-size: 12px;
+}
+.nav-link a {
+    color: #999999;
+    text-decoration: none;
+    padding: 0 10px;
+
+}
+.shoujiJD {
+    position: relative;
+}
+.shoujiJD .APP-erweima {
+    height: 66px;
+    width: 66px;
+    border: 1px solid #cfcfcf;
+    background: url(images/appQR.png) no-repeat 3px 3px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.xiaojiantou {
+    border: 7px solid transparent;
+    border-bottom-color: #F6F6F6;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 17px;
+    z-index: 1;
+}
+.nav-link div{
+    float: right;
+}
+.space {
+    height: 10px;
+    width: 1px;
+    background-color: #CCCCCC;
+    margin: 10px 0;
+}
+.nav-link a:hover {
+    color: #F10215;
+}
+.nav-link .weizhi {
+    padding-left: 10px;
+    float: left;
+}
+.weizhi a {
+    padding: 0;
+}
+.logo {
+    height: 171px;
+    width: 190px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px -12px 10px black;
+}
+.son-right {
+    height: 140px;
+    width: 990px;
+    float: right;
+    position: relative;
+}
+.son-right input {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 35px;
+    width: 500px;
+    border: 1px solid #F10215;
+    float: left;
+}
+.son-right .btn {
+    display: inline-block;
+    height: 35px;
+    width: 50px;
+    float: left;
+    background-color: #F10215;
+    border-color: #F10215;
+}
+.sea-nav2 {
+    height: 140px;
+}
+.searchbar {
+    position: absolute;
+    left: 120px;
+    top: 25px;
+}
+.searchbar .btn .iconfont {
+        font-size: 20px;
+        color: #fff;
+}
+.sea-input {
+    padding-left: 20px;
+}
+.huodong {
+    position: absolute;
+    left: 120px;
+    top: 65px;
+}
+.huodong a {
+    color: #999999;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0 4px;
+    float: left;
+}
+.huodong a:hover {
+    color: #F10215;
+}
+
+.nav2 div {
+    margin-bottom: 12px;
+    float: left;
+    margin-left: 30px;
+}
+.nav2 a {
+    color: #555555;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "宋体";
+}
+.nav2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nav2 .space {
+    margin-left: 15px;
+    line-height: 30px;
+}
+.nav2 .spmar {
+    margin-left: 15px;
+}
+.shop-car div {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #F10215;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+}
+.shop-car span {
+    color: #F10214;
+    font-size: 12px;    
+}
+.shop-car {
+    height: 35px;
+    width: 190px;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid #E3E4E5;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    top: 25px;
+    left: 700px;
+}
+.shop-car .iconfont {
+    color: #F10214;
+    font-size: 16px;
+}
+.shuma {
+    position: absolute;
+    right: 0px;
+    bottom: 12px;
+}
+.dkhs-son {
+    width: 297px;
+    height: 102px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 102px;
+    box-sizing: border-box;
+    font-weight: 700;
+    padding: 0 36px;
+    float: left;
+}
+.dkhs-son img {
+    vertical-align: middle; 
+}
+footer {
+    height: 500px;
+    background-color: #EAEAEA;
+}
+.dkhs {
+    height: 102px;
+    border-bottom: 1px solid #DEDEDE;   
+}
+.shopmap.banxin {
+    height: 200px;
+
+    border-bottom: 1px solid #DEDEDE;
+}
+.shopmap ul {
+    height: 175px;
+    width: 198px;
+    list-style: none;
+    padding-top: 25px;
+    float: left;
+}
+.shopmap p {
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #666666;
+}
+.shopmap li {
+    line-height: 22px;
+
+
+}
+.shopmap a{
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 20px;
+    color: #666666; 
+}
+.shopmap .serve {
+    width: 190px;
+}
+.jd-self  {
+    height: 150px;
+    width: 207px;
+    box-sizing: border-box;
+    background: url(images/ico_footer.png) no-repeat;
+    float: right;
+    padding: 0px 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.jd-self p:first-child {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.jd-self p:nth-child(2) {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+
+}
+.shopmap .jd-self a {
+    font-size: 12px;
+}
+.jd-self div {
+    text-align: right;
+}
+.chat-us {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.chat-us p {
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+}
+.chat-us a {
+    font-size: 14px;
+    color: #666666;
+    text-decoration: none;
+    padding: 0 4PX;
+
+}
+.copyright {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+.copyright p {
+    display: block;
+    margin-bottom: 5px;
+    color: #999999;
+}
+.friendlink {
+    width: 660px;
+
+    margin: 0 auto;
+}
+.friendlink div {
+    height: 30px;
+    width: 100px;
+    float: left;
+    margin: 0 5px;
+}
+.friendlink div:nth-child(1) {
+
+    background: url(images/ico_footer.png) no-repeat;
+    background-position: 0 -150px
+
+}
+.friendlink div:nth-child(2) {
+    
+    background: url(images/ico_footer.png) no-repeat;
+    background-position: -104px -150px
+
+}
+.friendlink div:nth-child(3) {
+    
+    background: url(images/ico_footer.png) no-repeat;
+    background-position: 0 -184px
+
+}
+.friendlink div:nth-child(4) {
+    
+    background: url(images/ico_footer.png) no-repeat;
+    background-position: -104px -184px
+
+}
+.friendlink div:nth-child(5) {
+    
+    background: url(images/ico_footer.png) no-repeat;
+    background-position: 0px -217px
+
+}
+.friendlink div:nth-child(6) {
+    
+    background: url(images/ico_footer.png) no-repeat;
+    background-position: -104px -217px
+
+}
